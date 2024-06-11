@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget Test</title>
+    <link rel="stylesheet" href="https://fiduswriter.github.io/simple-datatables/demos/dist/css/style.css">
+    <style>
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .card {
+            padding: 20px;
+            max-height: 100px; 
+            overflow-x: auto; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h3 id="tableTitle">Table Title</h3>
+            <table id="myTable" class="table table-striped table-bordered" style="width:100%">
+                <thead id="tableHeader">
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                        <td>John Doe</td>
+                        <td>30</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>25</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                    <tr>
+                        <td>Mike Johnson</td>
+                        <td>35</td>
+                        <td>Chicago</td>
+                    </tr>
+                    <tr>
+                        <td>Mike Johnson</td>
+                        <td>35</td>
+                        <td>Chicago</td>
+                    </tr>
+                    <tr>
+                        <td>Mike Johnson</td>
+                        <td>35</td>
+                        <td>Chicago</td>
+                    </tr>
+                    <!-- Add more rows as needed for testing scrolling -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code if needed to dynamically manipulate the table can be added here
+    </script>
+</body>
+</html>
