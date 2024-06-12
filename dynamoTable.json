@@ -1,13 +1,13 @@
 {
   "id": "com.rohitchouhan.dynamoTable",
-  "name": "Dynamic Table18",
+  "name": "Dynamic Table",
   "version": "1.0.0",
   "description": "A custom widget to help you create custom tables.",
   "newInstancePrefix": "dynamoTable",
   "vendor": "",
   "eula": "",
   "license": "",
-  "icon": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/dynamoTable@1.0.0/icon.png",
+  "icon": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/tst@main/icon.png",
   "imports": [
     "datasource",
     "planning-model"
