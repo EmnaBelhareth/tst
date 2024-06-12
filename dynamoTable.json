@@ -15,15 +15,15 @@
   "webcomponents": [
     {
       "kind": "main",
-      "tag": "dynamo-table",
-      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@main/dynamioTable.bundle.js",
+      "tag": "dynam-table",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@main/dynamTable.bundle.js",
       "integrity": "sha256-rpQ7evmwjSTNGlnvP6GNdnU3in0Ut5q2NlxgA4sFcnA=",
       "ignoreIntegrity": false
     },
     {
       "kind": "builder",
-      "tag": "dynamo-table -builder",
-      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@main/dynamioTable.bundle.js",
+      "tag": "dynam-table -builder",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@main/dynamTable.bundle.js",
       "integrity": "sha256-rpQ7evmwjSTNGlnvP6GNdnU3in0Ut5q2NlxgA4sFcnA=",
       "ignoreIntegrity": false
     }
