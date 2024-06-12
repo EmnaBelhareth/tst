@@ -947,6 +947,6 @@
     );
     var n, r, o, i;
   })(v(HTMLElement));
-  customElements.define("dynam-table", O),
-    customElements.define("dynam-table-builder", u);
+  customElements.define("dynamo-table", O),
+    customElements.define("dynamo-table-builder", u);
 })();
