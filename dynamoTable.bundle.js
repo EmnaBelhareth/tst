@@ -150,7 +150,7 @@
         var u = document.createElement("template");
         return (
           (u.innerHTML =
-            '\n<br>\n<style>\n    #container {\n          font-family: Arial, sans-serif;\n        width: 400px;\n        margin: 0 auto;\n    }\n\n    a {\n        text-decoration: none;\n    }\n\n    table {\n        width: 100%;\n        border-collapse: collapse;\n        margin-bottom: 10px;\n    }\n\n    td {\n        padding: 1px;\n        text-align: left;\n        font-size: 13px;\n    }\n\n    input[type="text"] {\n        width: 100%;\n        padding: 10px;\n        border: 2px solid #ccc;\n        border-radius: 5px;\n        font-size: 13px;\n        box-sizing: border-box;\n        margin-bottom: 10px;\n    }\n\n    select {\n        width: 100%;\n        padding: 10px;\n        border: 2px solid #ccc;\n        border-radius: 5px;\n        font-size: 13px;\n        box-sizing: border-box;\n        margin-bottom: 10px;\n    }\n\n    input[type="submit"] {\n        background-color: #00ff00;\n        color: blue;\n        padding: 10px;\n        border: none;\n        border-radius: 5px;\n        font-size: 14px;\n        cursor: pointer;\n        width: 100%;\n    }\n\n    #label {\n        width: 140px;\n    }\n</style>\n<div id="container">\n  <form id="form">\n      <table>\n          <tr>\n          <td>Table Title</td>\n          <td><input id="table_title" type="text"  placeholder="Enter Table Title12"></td>\n          </tr>\n      </table>\n      <input value="Update Settings123" type="submit">\n      <br>\n      </form>\n</div>'),
+            '\n<br>\n<style>\n    #form {\n        font-family: Arial, sans-serif;\n        width: 400px;\n        margin: 0 auto;\n    }\n\n    a {\n        text-decoration: none;\n    }\n\n    table {\n        width: 100%;\n        border-collapse: collapse;\n        margin-bottom: 10px;\n    }\n\n    td {\n        padding: 1px;\n        text-align: left;\n        font-size: 13px;\n    }\n\n    input[type="text"] {\n        width: 100%;\n        padding: 10px;\n        border: 2px solid #ccc;\n        border-radius: 5px;\n        font-size: 13px;\n        box-sizing: border-box;\n        margin-bottom: 10px;\n    }\n\n    select {\n        width: 100%;\n        padding: 10px;\n        border: 2px solid #ccc;\n        border-radius: 5px;\n        font-size: 13px;\n        box-sizing: border-box;\n        margin-bottom: 10px;\n    }\n\n    input[type="submit"] {\n        background-color: #487cac;\n        color: white;\n        padding: 10px;\n        border: none;\n        border-radius: 5px;\n        font-size: 14px;\n        cursor: pointer;\n        width: 100%;\n    }\n\n    #label {\n        width: 140px;\n    }\n</style>\n<form id="form">\n    <table>\n        <tr>\n        <td>Table Title</td>\n        <td><input id="table_title" type="text"  placeholder="Enter Table Title"></td>\n        </tr>\n    </table>\n    <input value="Update Settings" type="submit">\n    <br>\n    <p>Developed by <a target="_blank" href="https://linkedin.com/in/itsrohitchouhan">Rohit Chouhan</a></p>\n</form>'),
           (e._shadowRoot = e.attachShadow({ mode: "open" })),
           e._shadowRoot.appendChild(u.content.cloneNode(!0)),
           e._shadowRoot
@@ -199,7 +199,6 @@
       );
       var c, u;
     })(r(HTMLElement));
-
   function l(t) {
     return (
       (l =
@@ -785,7 +784,7 @@
     document.head.appendChild(c);
   var x = document.createElement("template");
   x.innerHTML =
-    '\n<style>\n@import "https://fiduswriter.github.io/simple-datatables/demos/dist/css/style.css";\n.card {\n    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n    border-radius:10px;\n max-height: 100px;\n    overflow-y: auto;}\n\n\n</style>\n<div class="container" style="padding: 20px;">\n<div class="card" style="padding: 20px;">\n    <h3 id="tableTitle"> USER TEST </h3>\n    <table id="myTable" class="table table-striped table-bordered" style="width:100%">\n        <thead id="tableHeader">\n        </thead>\n        <tbody id="tableBody">\n        </tbody>\n    </table>\n</div>\n</div>';
+    '\n<style>\n@import "https://fiduswriter.github.io/simple-datatables/demos/dist/css/style.css";\n.card {\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n    border-radius:10px;\n}\n\n\n</style>\n<div class="container" style="padding: 20px;">\n<div class="card" style="padding: 20px;">\n    <h3 id="tableTitle"></h3>\n    <table id="myTable" class="table table-striped table-bordered" style="width:100%">\n        <thead id="tableHeader">\n        </thead>\n        <tbody id="tableBody">\n        </tbody>\n    </table>\n</div>\n</div>';
   var O = (function (t) {
     function e() {
       var t, n, r, o;
