@@ -1,6 +1,6 @@
 {
   "id": "com.rohitchouhan.dynamoTable",
-  "name": "Dynamic Table18",
+  "name": "Dynamic Table",
   "version": "1.0.0",
   "description": "A custom widget to help you create custom tables.",
   "newInstancePrefix": "dynamoTable",
@@ -16,14 +16,14 @@
     {
       "kind": "main",
       "tag": "dynamo-table",
-      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/dynamoTable@1.0.0/dynamoTable.bundle.js",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@main/dynamoTable.bundle.js",
       "integrity": "sha256-rpQ7evmwjSTNGlnvP6GNdnU3in0Ut5q2NlxgA4sFcnA=",
       "ignoreIntegrity": false
     },
     {
       "kind": "builder",
       "tag": "dynamo-table -builder",
-      "url": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/dynamoTable@1.0.0/dynamoTable.bundle.js",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@main/dynamoTable.bundle.js",
       "integrity": "sha256-rpQ7evmwjSTNGlnvP6GNdnU3in0Ut5q2NlxgA4sFcnA=",
       "ignoreIntegrity": false
     }
