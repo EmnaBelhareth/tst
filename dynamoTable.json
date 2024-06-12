@@ -17,14 +17,14 @@
       "kind": "main",
       "tag": "dynamo-table",
       "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@v1.0/dynamoTable.bundle.js",
-      
+      "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "builder",
       "tag": "dynamo-table-builder",
       "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@v1.0/dynamoTable.bundle.js",
-     
+      "integrity": "",
       "ignoreIntegrity": true
     }
   ],
