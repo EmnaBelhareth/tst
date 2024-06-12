@@ -7,7 +7,7 @@
   "vendor": "Emna Belhareth",
   "eula": "",
   "license": "MIT",
-  "icon": "https://cdn.jsdelivr.net/gh/SAP-Custom-Widget/dynamoTable@v1.0/icon.png",
+  "icon": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.0/icon.png",
   "imports": [
     "datasource",
     "planning-model"
@@ -16,14 +16,14 @@
     {
       "kind": "main",
       "tag": "dynamo-table",
-      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@v1.0/dynamoTable.bundle.js",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.0/dynamoTable.bundle.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "builder",
       "tag": "dynamo-table-builder",
-      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@v1.0/dynamoTable.bundle.js",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.0/dynamoTable.bundle.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
