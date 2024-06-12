@@ -16,14 +16,14 @@
     {
       "kind": "main",
       "tag": "dynamo-table",
-      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@master/dynamoTable.bundle.js",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@v1.0/dynamoTable.bundle.js",
       "integrity": "sha256-rpQ7evmwjSTNGlnvP6GNdnU3in0Ut5q2NlxgA4sFcnA=",
       "ignoreIntegrity": false
     },
     {
       "kind": "builder",
       "tag": "dynamo-table-builder",
-      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@master/dynamoTable.bundle.js",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@v1.0/dynamoTable.bundle.js",
       "integrity": "sha256-rpQ7evmwjSTNGlnvP6GNdnU3in0Ut5q2NlxgA4sFcnA=",
       "ignoreIntegrity": false
     }
