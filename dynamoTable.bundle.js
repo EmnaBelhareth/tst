@@ -784,59 +784,57 @@
     document.head.appendChild(c);
   var x = document.createElement("template");
   x.innerHTML =
-    "\n<style>\n" +
+    '\n<style>\n' +
     '@import "https://fiduswriter.github.io/simple-datatables/demos/dist/css/style.css";\n' +
-    ".card {\n" +
-    "    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n" +
-    "    border-radius: 10px;\n" +
-    "    max-height: 400cm;\n" +
-    "    overflow-y: auto;\n" +
-    "    overflow-x: auto;\n" +
-    "}\n" +
-    "table {\n" +
-    "    width: 100%;\n" +
-    "    border-collapse: collapse;\n" +
-    "    background-color: #ffffff;\n" +
-    "}\n" +
-    "thead tr {\n" +
-    "    background-color: #429ef4;\n" +
-    "    color: white;\n" +
-    "}\n" +
-    "thead th {\n" +
-    "    padding: 10px;\n" +
-    "    text-align: left;\n" +
-    "}\n" +
-    "tbody tr:nth-child(odd) {\n" +
-    "    background-color: #f2f2f2;\n" +
-    "}\n" +
-    "tbody tr:nth-child(even) {\n" +
-    "    background-color: #ffffff;\n" +
-    "}\n" +
-    "tbody td {\n" +
-    "    padding: 10px;\n" +
-    "    text-align: left;\n" +
-    "}\n" +
-    "tbody tr:hover {\n" +
-    "    background-color: #ddd;\n" +
-    "}\n" +
-    ".table-container {\n" +
-    "    width: 100%;\n" +
-    "    overflow: auto;\n" +
-    "}\n" +
-    "</style>\n" +
+    '.card {\n' +
+    '    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n' +
+    '    border-radius: 10px;\n' +
+    '    padding: 20px;\n' +
+    '}\n' +
+    'table {\n' +
+    '    width: 100%;\n' +
+    '    border-collapse: collapse;\n' +
+    '    background-color: #ffffff;\n' +
+    '}\n' +
+    'thead tr {\n' +
+    '    background-color: #429ef4;\n' +
+    '    color: white;\n' +
+    '}\n' +
+    'thead th {\n' +
+    '    padding: 10px;\n' +
+    '    text-align: left;\n' +
+    '}\n' +
+    'tbody tr:nth-child(odd) {\n' +
+    '    background-color: #f2f2f2;\n' +
+    '}\n' +
+    'tbody tr:nth-child(even) {\n' +
+    '    background-color: #ffffff;\n' +
+    '}\n' +
+    'tbody td {\n' +
+    '    padding: 10px;\n' +
+    '    text-align: left;\n' +
+    '}\n' +
+    'tbody tr:hover {\n' +
+    '    background-color: #ddd;\n' +
+    '}\n' +
+    '.table-container {\n' +
+    '    width: 100%;\n' +
+    '    overflow: auto;\n' +
+    '}\n' +
+    '</style>\n' +
     '<div class="container" style="padding: 20px;">\n' +
     '<div class="card" style="padding: 20px;">\n' +
     '    <h3 id="tableTitle"></h3>\n' +
     '    <div class="table-container">\n' +
     '        <table id="myTable" class="table table-striped table-bordered" style="width:100%">\n' +
     '            <thead id="tableHeader">\n' +
-    "            </thead>\n" +
+    '            </thead>\n' +
     '            <tbody id="tableBody">\n' +
-    "            </tbody>\n" +
-    "        </table>\n" +
-    "    </div>\n" +
-    "</div>\n" +
-    "</div>";
+    '            </tbody>\n' +
+    '        </table>\n' +
+    '    </div>\n' +
+    '</div>\n' +
+    '</div>';
   var O = (function (t) {
     function e() {
       var t, n, r, o;

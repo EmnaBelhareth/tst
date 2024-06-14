@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Header Table</title>
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+    }
+
+    thead {
+      background-color: #429ef4;
+      color: white;
+      position: sticky;
+      top: 0; /* Stick to the top of the container */
+      z-index: 1; /* Ensure the header stays above content */
+    }
+
+    thead th {
+      padding: 10px;
+      text-align: left;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #ffffff;
+    }
+
+    tbody td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    tbody tr:hover {
+      background-color: #ddd;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    .container {
+      padding: 20px;
+      max-height: 300px; /* Set a maximum height for the container */
+      overflow-y: auto; /* Enable vertical scrolling */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h3 id="tableTitle">Sample Data Table</h3>
+      <table id="myTable" class="table table-striped table-bordered">
+        <thead id="tableHeader">
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+          </tr>
+          <tr>
+            <td>Data 11</td>
+            <td>Data 12</td>
+            <td>Data 13</td>
+            <td>Data 14</td>
+          </tr>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+          </tr>
+          <tr>
+            <td>Data 11</td>
+            <td>Data 12</td>
+            <td>Data 13</td>
+            <td>Data 14</td>
+          </tr>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+          </tr>
+          <tr>
+            <td>Data 11</td>
+            <td>Data 12</td>
+            <td>Data 13</td>
+            <td>Data 14</td>
+          </tr>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+          </tr>
+          <tr>
+            <td>Data 11</td>
+            <td>Data 12</td>
+            <td>Data 13</td>
+            <td>Data 14</td>
+          </tr>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+          </tr>
+          <tr>
+            <td>Data 11</td>
+            <td>Data 12</td>
+            <td>Data 13</td>
+            <td>Data 14</td>
+          </tr>
+          <!-- Add more rows as needed to test the scroll -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
