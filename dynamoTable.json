@@ -7,7 +7,7 @@
   "vendor": "Emna Belhareth",
   "eula": "",
   "license": "MIT",
-  "icon": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.7/icon.png",
+  "icon": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.8/icon.png",
   "imports": [
     "datasource",
     "planning-model"
@@ -16,14 +16,14 @@
     {
       "kind": "main",
       "tag": "dynamo-table",
-      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.7/dynamoTable.bundle.js",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.8/dynamoTable.bundle.js",
       "integrity": "",
       "ignoreIntegrity": true
     },
     {
       "kind": "builder",
       "tag": "dynamo-table-builder",
-      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.7/dynamoTable.bundle.js",
+      "url": "https://cdn.jsdelivr.net/gh/EmnaBelhareth/tst@1.0.8/dynamoTable.bundle.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
