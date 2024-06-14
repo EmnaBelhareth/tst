@@ -789,7 +789,7 @@
     ".card {\n" +
     "    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n" +
     "    border-radius: 10px;\n" +
-    "    max-height: 300cm;\n" +
+    "    max-height: 400cm;\n" +
     "    overflow-y: auto;\n" +
     "    overflow-x: auto;\n" +
     "}\n" +
@@ -837,7 +837,6 @@
     "    </div>\n" +
     "</div>\n" +
     "</div>";
-
   var O = (function (t) {
     function e() {
       var t, n, r, o;
