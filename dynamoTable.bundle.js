@@ -783,7 +783,7 @@
     "https://cdn.jsdelivr.net/npm/simple-datatables@9.0.0"),
     document.head.appendChild(c);
   var x = document.createElement("template");
-  x.innerHTML =
+  x.innerHTML = 
     '\n<style>\n' +
     '@import "https://fiduswriter.github.io/simple-datatables/demos/dist/css/style.css";\n' +
     '.card {\n' +
@@ -796,9 +796,12 @@
     '    border-collapse: collapse;\n' +
     '    background-color: #ffffff;\n' +
     '}\n' +
-    'thead tr {\n' +
+    'thead {\n' +
     '    background-color: #429ef4;\n' +
     '    color: white;\n' +
+    '    position: sticky;\n' +
+    '    top: 0;\n' + // Stick to the top of the container
+    '    z-index: 1;\n' + // Ensure the header stays above content
     '}\n' +
     'thead th {\n' +
     '    padding: 10px;\n' +
@@ -817,9 +820,13 @@
     'tbody tr:hover {\n' +
     '    background-color: #ddd;\n' +
     '}\n' +
-    '.table-container {\n' +
-    '    width: 100%;\n' +
-    '    overflow: auto;\n' +
+    'h3 {\n' +
+    '    margin-top: 0;\n' +
+    '}\n' +
+    '.container {\n' +
+    '    padding: 20px;\n' +
+    '    max-height: 300px;\n' + // Set a maximum height for the container
+    '    overflow-y: auto;\n' + // Enable vertical scrolling
     '}\n' +
     '</style>\n' +
     '<div class="container" style="padding: 20px;">\n' +
